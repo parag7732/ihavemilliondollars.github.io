@@ -1,0 +1,38 @@
+.clock {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid black;
+  position: relative;
+  margin: 50px auto;
+}
+
+.hour-hand {
+  width: 8px;
+  height: 60px;
+  background-color: black;
+  position: absolute;
+  top: 70px;
+  left: 96px;
+  transform-origin: bottom center;
+}
+
+.minute-hand {
+  width: 4px;
+  height: 90px;
+  background-color: black;
+  position: absolute;
+  top: 50px;
+  left: 98px;
+  transform-origin: bottom center;
+}
+
+.result {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.result span {
+  font-weight: bold;
+  font-size: 20px;
+}
